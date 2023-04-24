@@ -1,4 +1,24 @@
-html {
-    height: 100%;
-    width: 100%;
+.test-box{
+    border:1px solid red;
+}
+
+#logoimg{
+    height:50px;
+    width:50px;
+}
+
+.indexmain{
+    width:100%;
+    min-height:500px;
+    background-image:url(./img/jeju.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.footer-link{
+    color:#aaaaaa;
+    padding:0rem 0.5rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
