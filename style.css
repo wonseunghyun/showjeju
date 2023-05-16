@@ -2,6 +2,10 @@
     border:1px solid red;
 }
 
+html, body {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
 #logoimg{
     height:50px;
     width:100px;
@@ -71,3 +75,9 @@
         display:none;
     }
 }
+
+#calendar {
+    max-width:800px;
+    width:80%;
+    margin: 40px auto;
+  }
