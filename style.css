@@ -62,6 +62,25 @@
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
+#calendar {
+    max-width:800px;
+    width:80%;
+    min-height: 500px;
+    margin: 40px auto;
+  }
+
+#calendar a {
+    color:black;
+    text-decoration: none;
+    font-size:14px;
+}
+
+@media (min-width:768px){
+    .fc-footer-toolbar .fc-button{
+        display:none;
+    }
+}
+
 @media (max-width:768px){
     .indexmaincontbox{
         width:20%;
@@ -70,10 +89,24 @@
     .blankplace{
         display:none;
     }
+
+    .fc-header-toolbar .fc-button{
+        display:none;
+    }
+
+    .fc-footer-toolbar .fc-button{
+        display:inline-flex;
+    }
+
+    .fc .fc-toolbar-title{
+        font-size:1.5rem;
+    }
+
+    #calendar a {
+        color:black;
+        text-decoration: none;
+        font-size:12px;
+    }
 }
 
-#calendar {
-    max-width:800px;
-    width:80%;
-    margin: 40px auto;
-  }
+
