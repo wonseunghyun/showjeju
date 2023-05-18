@@ -2,6 +2,50 @@
     border:1px solid red;
 }
 
+a{
+    text-decoration: none !important;
+}
+
+@media (min-width:900px){
+    .container{
+        width:900px;
+    }
+}
+
+@media (min-width:768px){
+    .fc-footer-toolbar .fc-button{
+        display:none;
+    }
+}
+
+@media (max-width:768px){
+    .indexmaincontbox{
+        width:20%;
+    }
+
+    .blankplace{
+        display:none;
+    }
+
+    .fc-header-toolbar .fc-button{
+        display:none;
+    }
+
+    .fc-footer-toolbar .fc-button{
+        display:inline-flex;
+    }
+
+    .fc .fc-toolbar-title{
+        font-size:1.5rem;
+    }
+
+    #calendar a {
+        color:black;
+        text-decoration: none;
+        font-size:12px;
+    }
+}
+
 #logoimg{
     height:50px;
     width:100px;
@@ -75,38 +119,108 @@
     font-size:14px;
 }
 
-@media (min-width:768px){
-    .fc-footer-toolbar .fc-button{
-        display:none;
-    }
+#showinfocont{
+    max-width:900px;
+    width:100%;
+    margin:0 auto;
 }
 
-@media (max-width:768px){
-    .indexmaincontbox{
-        width:20%;
-    }
-
-    .blankplace{
-        display:none;
-    }
-
-    .fc-header-toolbar .fc-button{
-        display:none;
-    }
-
-    .fc-footer-toolbar .fc-button{
-        display:inline-flex;
-    }
-
-    .fc .fc-toolbar-title{
-        font-size:1.5rem;
-    }
-
-    #calendar a {
-        color:black;
-        text-decoration: none;
-        font-size:12px;
-    }
+#filter-title{
+    padding:11px 0px 8px;
+    font-size:13px;
+    font-weight:600;
+}
+.filter-box{
+    height:41px;
+    border-top:#f4f4f6 solid 1px;
+    border-right:#f4f4f6 solid 1px;
 }
 
+.filter-menu{
+    padding:9 3px;
+    float:left;
+    position:relative;
+    list-style:none;
+}
 
+#filter-list{
+    background-color:rgb(43, 44, 44);
+    color:#fff;
+    font-weight:300px;
+    font-size:13px;
+}
+
+#filter-link{
+    font-size:13px;
+    text-decoration: none;
+    color:#000;
+    padding:0 11px;
+}
+
+.filter-selected-box{
+    border: 1px solid #e0e0e0;
+    background-color: #f9f9f9;
+}
+
+.filter-selected-cancel{
+    text-decoration:none;
+    color:#6b6b6a;
+    font-size:14px;
+}
+
+.filter-selected-cancel:before {
+    background-image: url(https://ssl.pstatic.net/shoppingsearch/static/pc/pc-221031-141651/img/sprite/png/spSearch.png);
+    background-size: 263px 240px;
+    background-position: -239px -129px;
+    width: 12px;
+    height: 13px;
+    display: inline-block;
+    margin: 5px 5px 0 0;
+    vertical-align: top;
+    content: "";
+}
+
+.filter-selected-cancel:after {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 7px 0 0 12px;
+    background-color: #d8d8d8;
+    vertical-align: top;
+    content: "";
+}
+
+#filter-selected{
+    padding:0 11px;
+    height: 25px;
+    margin-left: 15px;
+    font-size:14px;
+    font-weight: 500;
+    color: #00a832;
+    text-decoration: none;
+}
+
+.post-box{
+    border-bottom:1px solid #d8d8d8;
+}
+
+.card-img-top{
+    width:285px;
+    height:400px;
+}
+
+#post-contentin1{
+    min-height:45px;
+    color:#000;
+    font-weight:700;
+    font-size:15px;
+}
+
+#post-contentin2{
+    color:#000;
+    font-size:13px;
+}
+
+.page-link{
+    color:#ff7f00 !important;
+}
