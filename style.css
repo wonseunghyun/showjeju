@@ -204,6 +204,12 @@ a{
     border-bottom:1px solid #d8d8d8;
 }
 
+.detailinfo{
+    border:none;
+    background-color: transparent;
+    text-align:start;
+}
+
 .card-img-top{
     width:285px;
     height:400px;

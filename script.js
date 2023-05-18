@@ -23,4 +23,34 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
     calendar.render();
-  });
+});
+
+var detailinfo1 = document.getElementById('detailinfo1');
+detailinfo1.addEventListener('click', function () {
+  window.open("infodetail.html", "a", "width=500, height=700, left=500, top=100");
+})
+
+var detailinfo2 = document.getElementById('detailinfo2');
+detailinfo2.addEventListener('click', function () {
+  window.open("infodetail.html", "a", "width=500, height=700, left=500, top=100");
+})
+
+var detailinfo3 = document.getElementById('detailinfo3');
+detailinfo3.addEventListener('click', function () {
+  window.open("infodetail.html", "a", "width=500, height=700, left=500, top=100");
+})
+
+var detailinfo4 = document.getElementById('detailinfo4');
+detailinfo4.addEventListener('click', function () {
+  window.open("infodetail.html", "a", "width=500, height=700, left=500, top=100");
+})
+
+var detailinfo5 = document.getElementById('detailinfo5');
+detailinfo5.addEventListener('click', function () {
+  window.open("infodetail.html", "a", "width=500, height=700, left=500, top=100");
+})
+
+var detailinfo6 = document.getElementById('detailinfo6');
+detailinfo6.addEventListener('click', function () {
+  window.open("infodetail.html", "a", "width=500, height=700, left=500, top=100");
+})
