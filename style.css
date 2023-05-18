@@ -13,7 +13,7 @@ a{
 }
 
 @media (min-width:768px){
-    .fc-footer-toolbar .fc-button{
+    #calendar2{
         display:none;
     }
 }
@@ -23,20 +23,12 @@ a{
         width:20%;
     }
 
+    .footer-link{
+        font-size:12px;
+    }
+
     .blankplace{
         display:none;
-    }
-
-    .fc-header-toolbar .fc-button{
-        display:none;
-    }
-
-    .fc-footer-toolbar .fc-button{
-        display:inline-flex;
-    }
-
-    .fc .fc-toolbar-title{
-        font-size:1.5rem;
     }
 
     #calendar a {
@@ -44,6 +36,30 @@ a{
         text-decoration: none;
         font-size:12px;
     }
+
+    #calendar{
+        display:none;
+    }
+
+    #calendar2 {
+        margin-top:15px;
+        display:inline-flex;
+        min-width:350px;
+        min-height:500px;
+    }
+
+    .fc table {
+        font-size:0.9em;
+    }
+
+    #fc-dom-86 {
+        font-size:1em;
+    }
+
+    .fc .fc-button{
+        font-size:0.7em;
+    }
+
 }
 
 #logoimg{
@@ -107,15 +123,23 @@ a{
 }
 
 #calendar {
-    max-width:800px;
-    width:80%;
+    width:100%;
     min-height: 500px;
     margin: 40px auto;
   }
 
+
 #calendar a {
     color:black;
     text-decoration: none;
+    font-size:14px;
+}
+
+.fc-event-time{
+    font-size:12px;
+}
+
+.fc-event-title{
     font-size:14px;
 }
 

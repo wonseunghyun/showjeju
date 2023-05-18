@@ -8,9 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
         left: 'title',
         right: 'prev,next today'
       },
-      footerToolbar: {
-        center: 'prev,next today'
-      },
       events: {
         googleCalendarApiKey: 'AIzaSyA_a2KxWwdBijNAwSQY2jurgoctyeIW6Ow',
         googleCalendarId: '655f9e0f0e83c29de231a3e7d650fe39bfe082b493f57719c2d1994bf6651e9d@group.calendar.google.com',
@@ -24,6 +21,33 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     calendar.render();
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  var calendarEl2 = document.getElementById('calendar2');
+
+  var calendar = new FullCalendar.Calendar(calendarEl2, {
+  locale: 'ko',
+  initialView: 'listWeek',
+  headerToolbar: {
+    left: 'title',
+    right: 'prev,next today'
+  },
+  events: {
+    googleCalendarApiKey: 'AIzaSyA_a2KxWwdBijNAwSQY2jurgoctyeIW6Ow',
+    googleCalendarId: '655f9e0f0e83c29de231a3e7d650fe39bfe082b493f57719c2d1994bf6651e9d@group.calendar.google.com',
+    className: 'gcal-event'
+  },
+  eventClick: function(info) {
+    info.jsEvent.stopPropagation();
+    info.jsEvent.preventDefault();  
+    location.href = "https://www.naver.com";
+  }
+
+  });
+  calendar.render();
+});
+
+
 
 var detailinfo1 = document.getElementById('detailinfo1');
 detailinfo1.addEventListener('click', function () {
