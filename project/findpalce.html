@@ -34,10 +34,91 @@
               <div class="blankplace">
               </div>
             </div>
-          </nav>
     </header>
-    <main>
-        
+    <main id="board" class="container">
+      <div class="mx-2">
+        <div class="mt-4" id="filter-title">
+          공연장 쉽게 찾기
+        </div>
+
+        <div class="row justify-content-center">
+          <div id="filter-list" class="col-3 col-md-2 py-2 filter-box">
+            지역
+          </div>
+          <div class="col-9 col-md-10 py-2 filter-box d-flex">
+            <ul style="padding-left:0;">
+              <li class="filter-menu">
+                <a id="filter-link" class=""href="#"> 제주시 </a>
+              </li>
+              <li class="filter-menu">
+                <a id="filter-link" href="#" role="button"> 제주시 </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div id="filter-list" class="col-3 col-md-2 py-2 filter-box">
+            세부지역
+          </div>
+          <div class="col-9 col-md-10 py-2 filter-box d-flex">
+            <ul style="padding-left:0;">
+              <li class="filter-menu">
+                <a id="filter-link" class=""href="#"> 서부 </a>
+              </li>
+              <li class="filter-menu">
+                <a id="filter-link" href="#" role="button"> 동부 </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div id="filter-list" class="col-3 col-md-2 py-2 filter-box">
+            극장크기
+          </div>
+          <div class="col-9 col-md-10 py-2 filter-box d-flex">
+            <ul style="padding-left:0;">
+              <li class="filter-menu">
+                <a id="filter-link" href="#"> 소극장 </a>
+              </li>
+              <li class="filter-menu">
+                <a id="filter-link" href="#"> 대극장 </a>
+              </li>
+              <li class="filter-menu">
+                <a id="filter-link" href="#"> 전시공간 </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="filter-selected-box col-12 py-2 text-align-center">
+            <a href="#" class="filter-selected-cancel"> 전체해제</a>
+            <a href="#" id="filter-selected"> 연주자 </a>
+            <a href="#" id="filter-selected"> 현악기 </a>
+            <a href="#" id="filter-selected"> 타악기 </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center my-5">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link disalbed" href="./showinfoj.html" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
     </main>
     <footer>
 
