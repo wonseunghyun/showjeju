@@ -1,3 +1,12 @@
+@font-face{
+    font-family: 'Cafe24Oneprettynight';
+    src : url(./font/Cafe24Oneprettynight.ttf);
+}
+
+html{
+    font-family: 'Cafe24Oneprettynight';
+}
+
 .test-box{
     border:1px solid red;
 }
@@ -5,7 +14,6 @@
 a{
     text-decoration: none !important;
 }
-
 
 #logoimg{
     height:50px;
@@ -18,7 +26,7 @@ a{
 }
 
 #headernav  .nav-link{
-    color:#ffa100;
+    color:#a46d108d;
 }
 
 #headernav  .nav-link:hover{
@@ -218,8 +226,28 @@ a{
     font-size:13px;
 }
 
+.post-box{
+    border-bottom:1px solid #d8d8d8;
+}
+
+.post-content{
+    margin-top:0.3rem;
+
+}
+
+#post-contentin{
+    margin: 5px 0;
+    font-size:13px;
+}
+
 .page-link{
     color:#ff7f00 !important;
+}
+
+.place-img{
+    width:140px;
+    height:140px;
+    object-fit: cover;
 }
 
 @media (min-width:900px){
