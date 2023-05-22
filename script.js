@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
       eventClick: function(info) {
         info.jsEvent.stopPropagation();
         info.jsEvent.preventDefault();  
-        location.href = "https://www.naver.com";
+        location.href = "http://ktf365.org/";
       }
     });
     calendar.render();
@@ -46,8 +46,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   calendar.render();
 });
-
-
 
 var detailinfoj1 = document.getElementById('detailinfoj1');
 detailinfoj1.addEventListener('click', function () {
