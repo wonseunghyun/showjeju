@@ -26,7 +26,8 @@ a{
 }
 
 #headernav  .nav-link{
-    color:#a46d108d;
+    color:#4a31048d;
+    font-weight:600;
 }
 
 #headernav  .nav-link:hover{
@@ -52,20 +53,32 @@ a{
     display:flex;
     justify-content:center;
     align-items:center;
-    border: 1px solid skyblue;
-    border-radius: 5%;
-    width:15%;
-    height:100%;
     padding:5px 5px;
 }
 
-.indexmaincont{
-    color:black;
-    text-decoration:none;
+.indexmaincontbox:hover{
+    padding:0px 5px;
 }
 
-.indexmaincont:hover{
-    font-size:large;
+.jejusia{
+    height:100px;
+    width:auto;
+    margin-bottom:20px;
+}
+
+.indexmaincontbox:hover .jejusia{
+    height:110px;
+}
+
+.seoguiposia{
+    height:120px;
+    width:auto;
+    margin-top:30px;
+}
+
+
+.indexmaincontbox:hover .seoguiposia{
+    height:130px;
 }
 
 .footer-link{
@@ -107,6 +120,21 @@ a{
     font-size:13px;
     font-weight:600;
 }
+
+.btn-outline-warning {
+    --bs-btn-color: #4a31048d !important;
+    --bs-btn-border-color: #4a31048d !important;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #ff7f00 !important;
+    --bs-btn-hover-border-color: #ff7f00 !important;
+    --bs-btn-focus-shadow-rgb: 255,193,7;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #4a31048d !important;
+    --bs-btn-active-border-color: #4a31048d !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-gradient: none;
+}
+
 .filter-box{
     height:37px;
     border-top:#f4f4f6 solid 1px;
@@ -241,7 +269,7 @@ a{
 }
 
 .page-link{
-    color:#ff7f00 !important;
+    color:#4a31048d !important;
 }
 
 .place-img{
@@ -265,6 +293,27 @@ a{
 @media (max-width:768px){
     .indexmaincontbox{
         width:20%;
+    }
+
+    .jejusia{
+        height:40px;
+        width:auto;
+        margin-bottom:5px;
+    }
+    
+    .indexmaincontbox:hover .jejusia{
+        height:45px;
+    }
+    
+    .seoguiposia{
+        height:45px;
+        width:auto;
+        margin-top:13px;
+    }
+    
+    
+    .indexmaincontbox:hover .seoguiposia{
+        height:50px;
     }
 
     .footer-link{
