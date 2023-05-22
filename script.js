@@ -76,13 +76,3 @@ var detailinfos3 = document.getElementById('detailinfos3');
 detailinfos3.addEventListener('click', function () {
   window.open("infodetails3.html", "a", "width=580, height=700, left=500, top=100");
 })
-
-const toastTrigger = document.getElementById('liveToastBtn')
-const toastLiveExample = document.getElementById('liveToast')
-if (toastTrigger) {
-  toastTrigger.addEventListener('click', () => {
-    const toast = new bootstrap.Toast(toastLiveExample)
-
-    toast.show()
-  })
-}

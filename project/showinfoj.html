@@ -113,7 +113,7 @@
             <img src="../img/infoje/posje3.jpeg" class="card-img-top" alt="...">  
             <div class="card-body">
               <p class="card-text" id="post-contentin1">2023 김만덕기념관 청년작가전</p>
-              <p class="card-text" id="post-contentin2">2023.03.24. ~ 06.23. | 09:00~17:00</p>
+              <p class="card-text" id="post-contentin2">~ 2023.06.23.(금) 09:00~17:00</p>
               <p class="card-text" id="post-contentin2">김만덕기념관 1,2층 만덕갤러리</p>
               <p class="card-text" id="post-contentin2">입장료 : 무료</p>
             </div>
@@ -122,11 +122,11 @@
 
         <button id="detailinfoj1" class="col-12 col-md-4 mt-5 gx-3 detailinfo">
           <div class="card mx-auto" style="width: 18rem;">
-            <img src="../img/infoje/posje1.jpg" class="card-img-top" alt="...">  
+            <img src="../img/infoje/posje4.png" class="card-img-top" alt="...">  
             <div class="card-body">
-              <p class="card-text" id="post-contentin1">현대자동차그룹과 함께하는 국립오페라단 갈라콘서트<오페라 여행></p>
-              <p class="card-text" id="post-contentin2">2023.04.28.(금) 7:30PM</p>
-              <p class="card-text" id="post-contentin2">제주아트센터</p>
+              <p class="card-text" id="post-contentin1">2023 제주에코뮤직페스티벌</p>
+              <p class="card-text" id="post-contentin2">2023.06.17.(토) 15:00~21:30</p>
+              <p class="card-text" id="post-contentin2">제주돌문화공원</p>
               <p class="card-text" id="post-contentin2">입장료 : 무료</p>
             </div>
           </div>
@@ -134,24 +134,24 @@
 
         <button id="detailinfoj2" class="col-12 col-md-4 mt-5 gx-3 detailinfo">
           <div class="card mx-auto" style="width: 18rem;">
-            <img src="../img/infoje/posje2.jpeg" class="card-img-top" alt="...">  
+            <img src="../img/infoje/posje5.jpeg" class="card-img-top" alt="...">  
             <div class="card-body">
-              <p class="card-text" id="post-contentin1">치마돌격대 (제 41회 대한민국연극제 개막 축하 공연)</p>
-              <p class="card-text" id="post-contentin2">2023.06.15.(목) 7:00PM</p>
-              <p class="card-text" id="post-contentin2">제주 문예회관</p>
-              <p class="card-text" id="post-contentin2">입장료 : 무료</p>
+              <p class="card-text" id="post-contentin1">밴드 콩코드 공연</p>
+              <p class="card-text" id="post-contentin2">2023.05.27.(토) 7:00PM</p>
+              <p class="card-text" id="post-contentin2">입다(ipda)</p>
+              <p class="card-text" id="post-contentin2">입장료 : 20,000원</p>
             </div>
           </div>
         </button>
 
         <button id="detailinfoj3" class="col-12 col-md-4 mt-5 gx-3 detailinfo">
           <div class="card mx-auto" style="width: 18rem;">
-            <img src="../img/infoje/posje3.jpeg" class="card-img-top" alt="...">  
+            <img src="../img/infoje/posje6.jpeg" class="card-img-top" alt="...">  
             <div class="card-body">
-              <p class="card-text" id="post-contentin1">2023 김만덕기념관 청년작가전</p>
-              <p class="card-text" id="post-contentin2">2023.03.24. ~ 06.23. | 09:00~17:00</p>
-              <p class="card-text" id="post-contentin2">김만덕기념관 1,2층 만덕갤러리</p>
-              <p class="card-text" id="post-contentin2">입장료 : 무료</p>
+              <p class="card-text" id="post-contentin1">극단 사자자리 창단 공연 <아무 것도 아닌 일로></p>
+              <p class="card-text" id="post-contentin2">2023.06.01.(목) ~ 06.06.(화) | 7:30PM</p>
+              <p class="card-text" id="post-contentin2">세이레아트센터 동네극장</p>
+              <p class="card-text" id="post-contentin2">입장료 : 15,000원</p>
             </div>
           </div>
         </button>
@@ -185,5 +185,16 @@
     <script src="../script.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script>
+      const toastTrigger = document.getElementById('liveToastBtn')
+      const toastLiveExample = document.getElementById('liveToast')
+      if (toastTrigger) {
+        toastTrigger.addEventListener('click', () => {
+          const toast = new bootstrap.Toast(toastLiveExample)
+
+          toast.show()
+        })
+      }
+    </script>
 </body>
 </html>
