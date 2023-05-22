@@ -260,7 +260,6 @@ a{
 
 .post-content{
     margin-top:0.3rem;
-
 }
 
 #post-contentin{
@@ -276,6 +275,22 @@ a{
     width:140px;
     height:140px;
     object-fit: cover;
+}
+
+.infodetailcont{
+    font-size:15px;
+    border-bottom:#aaaaaa solid 0.5px;
+}
+
+.infodetaila{
+    color:black;
+}
+
+.showintro{
+    margin:20px auto;
+    border:0.5px #aaaaaa solid;
+    border-radius: 10px;
+    padding:5px 10px;
 }
 
 @media (min-width:900px){

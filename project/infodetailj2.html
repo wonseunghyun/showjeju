@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <title> 공연정보 </title>
+    </head>
+    <body>
+        <main>
+            <div class="d-flex row gx-5 mx-1 my-5">
+                <img class="col-6" src="../img/infoje/posje2.jpeg">
+                <div class="col-6">
+                    <p class="infodetailcont" style="font-weight:700"> 치마돌격대 (제 41회 대한민국연극제 개막공연)  </p>
+                    <p class="infodetailcont"> 장르 : 연극 </p>
+                    <p class="infodetailcont"> 일시 : 2023.06.15.(목) 7:00PM </p>
+                    <p class="infodetailcont"> 장소 : 제주문예회관 대극장 </p>
+                    <p class="infodetailcont"> 성인 : 무료 <br> 청소년 : 무료 <br> 어린이 : 무료 </p>
+                    <p class="infodetailcont"> 관람등급 : 8세이상 관람가 </p>
+                    <p class="infodetailcont"> 문의 : 064-702-5090, 6090 </p>
+                </div>
+
+                <div class="col-11 showintro">
+                    여성들이 주로 입는 치마가 아닌 달릴 치, 말 마 자를 써서 달리는 말이라는 의미로 왜구의 침탈로 고통받던 제주에서
+                    약 70 명의 군사로 1,000여 명의 왜군을 물리친 사건을 그린 작품인데요.
+                    제주에서 활동 중인 배우들로만 구성된 연기진이 특징이며, 레미제라블을 연기한 최종원 배우도 참가합니다.
+                    실화를 다룬 작품이기에 제주도민이라면 더욱 몰입되는 공연일 것 같네요.
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-evenly my-5">
+                <button type="button" class="btn btn-outline-secondary px-5 me-3" onclick="window.close()"> 닫기 </button>
+                <button type="button" class="btn btn-outline-secondary px-5 me-3" id="liveToastBtn"> 예매 </button>
+
+                <div class="toast-container d-flex justify-content-center align-items-center w-100">
+                    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <img src="..." class="rounded me-2" alt="...">
+                            <strong class="me-auto">Showjeju 알림</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            해당 공연은 예매 절차가 필요 없습니다.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+    </body>
+    <script src="../script.js"></script>
+</html>

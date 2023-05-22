@@ -49,32 +49,42 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-var detailinfo1 = document.getElementById('detailinfo1');
-detailinfo1.addEventListener('click', function () {
-  window.open("infodetail.html", "a", "width=500, height=700, left=500, top=100");
+var detailinfoj1 = document.getElementById('detailinfoj1');
+detailinfoj1.addEventListener('click', function () {
+  window.open("infodetailj1.html", "a", "width=580, height=700, left=500, top=100");
 })
 
-var detailinfo2 = document.getElementById('detailinfo2');
-detailinfo2.addEventListener('click', function () {
-  window.open("infodetail.html", "a", "width=500, height=700, left=500, top=100");
+var detailinfoj2 = document.getElementById('detailinfoj2');
+detailinfoj2.addEventListener('click', function () {
+  window.open("infodetailj2.html", "a", "width=580, height=700, left=500, top=100");
 })
 
-var detailinfo3 = document.getElementById('detailinfo3');
-detailinfo3.addEventListener('click', function () {
-  window.open("infodetail.html", "a", "width=500, height=700, left=500, top=100");
+var detailinfoj3 = document.getElementById('detailinfoj3');
+detailinfoj3.addEventListener('click', function () {
+  window.open("infodetailj3.html", "a", "width=580, height=700, left=500, top=100");
 })
 
-var detailinfo4 = document.getElementById('detailinfo4');
-detailinfo4.addEventListener('click', function () {
-  window.open("infodetail.html", "a", "width=500, height=700, left=500, top=100");
+var detailinfos1 = document.getElementById('detailinfos1');
+detailinfos1.addEventListener('click', function () {
+  window.open("infodetails1.html", "a", "width=580, height=700, left=500, top=100");
 })
 
-var detailinfo5 = document.getElementById('detailinfo5');
-detailinfo5.addEventListener('click', function () {
-  window.open("infodetail.html", "a", "width=500, height=700, left=500, top=100");
+var detailinfos2 = document.getElementById('detailinfos2');
+detailinfos2.addEventListener('click', function () {
+  window.open("infodetails2.html", "a", "width=580, height=700, left=500, top=100");
 })
 
-var detailinfo6 = document.getElementById('detailinfo6');
-detailinfo6.addEventListener('click', function () {
-  window.open("infodetail.html", "a", "width=500, height=700, left=500, top=100");
+var detailinfos3 = document.getElementById('detailinfos3');
+detailinfos3.addEventListener('click', function () {
+  window.open("infodetails3.html", "a", "width=580, height=700, left=500, top=100");
 })
+
+const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(toastLiveExample)
+
+    toast.show()
+  })
+}
